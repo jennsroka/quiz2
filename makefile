@@ -2,8 +2,8 @@
 #quiz 2 makefile
 
 all: 
-	build
-	doczip
+	make build
+	make doczip
 
 build:
 	g++ *.cc
@@ -23,7 +23,8 @@ course.o: course.cc
 collegemain.o: collegemain.cc
 	g++ -c collegemain.cc
 
-doczip: archive tar.gz
+doczip: 
+	tar.gz
 
 clean:
 	rm *.o myexe
