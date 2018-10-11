@@ -10,6 +10,8 @@
 
 #include<iostream>
 
+/** @file tarry.h - header file and definitions for the tarray class. this will further allow the other classes to build a proper list of the objects. **/
+
 template<class T>
 class Tarray{
     public:

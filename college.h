@@ -10,7 +10,8 @@
 #include <string>
 #include "course.h"
 #include "node.h"
-
+/** @file college.h - the header file for the college.cc file. This designates all of the necessary functions for this class. Any functions not defined here will be further defined in the college.cc class.
+ **/
 
 #ifndef COLLEGE_H
 #define COLLEGE_H

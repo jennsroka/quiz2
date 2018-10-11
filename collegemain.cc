@@ -21,6 +21,8 @@
 
 using namespace std;
 
+/** @file collegemain.cc - implements all required classes, creates a GUI for the user. **/
+
 // This function displays the menu and returns the user's choice
 int menu();
 

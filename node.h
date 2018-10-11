@@ -9,6 +9,7 @@
 #define NODE_H
 #include "course.h"
 
+/** @file node.h - the implementation and definitions of the node class that will allow the other classes to access throughout the code to allow the user to build a list of classes that they have taken. **/
 class node{
     public:
 	typedef course value_type;

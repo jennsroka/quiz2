@@ -10,10 +10,16 @@
 #include<string>
 using namespace std;
 
+/** @file course.cc - implements all functions defined in the course.h header file. **/
+
 course::course(){
     hours = 0.0;
 }
 
+/** The input function reads from a file/terminal the course information a user would like to add.
+ @param ins - the input source for the user to add this information from.
+ There are no return values for this function.
+ **/
 void course::input(std::istream& ins){
     if(ins == cin){
 	cout<<"Course Number: ";
@@ -39,6 +45,7 @@ void course::input(std::istream& ins){
     }
 }
 
+
 void course::output(std::ostream& outs)const{
     if(outs == cout){
 	outs<<"Course Number:"<<course_number<<endl;
@@ -52,7 +59,9 @@ void course::output(std::ostream& outs)const{
       }
 }
 
-
+/** The get_number_grade function allows the user to see what the number value of their letter grade is.
+ @return value - the decimal value of their letter grade.
+ **/
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;

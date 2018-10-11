@@ -11,6 +11,7 @@
 #include<string>
 #ifndef COURSE_H
 #define COURSE_H
+/** @file course.h - the header file for course.cc - provides all of the definitions of the functions that will later be fully defined in the course.cc file.**/
 
 class course{
     public:
